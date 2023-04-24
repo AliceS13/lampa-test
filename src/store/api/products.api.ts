@@ -9,15 +9,20 @@ export const productsApi = createApi({
     }),
     endpoints: build => ({
         getProducts: build.query<Product[], string>({
-            query: () => ({
-                url:  `products`,
+            query: (category: string) => ({
+                url:  `products/${category ? 'category/' + category : ""}`,
                 params: {
-                    limit: 10
+                    limit: 20
                 }
             }),
             transformResponse: (response: ServerResponse<Product>) => response.products
         }),
+        getProductsCategories: build.query<string[], string> ({
+            query: () => ({
+                url: 'products/categories'
+            })
+        }),
     })
 })
 
-export const { useGetProductsQuery } = productsApi
+export const { useGetProductsQuery, useGetProductsCategoriesQuery } = productsApi
