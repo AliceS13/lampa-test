@@ -1,0 +1,27 @@
+.product {
+    @apply text-center p-4 flex flex-col shadow-md;
+}
+
+.product-title {
+    @apply font-bold mb-2 text-gray-800 text-lg;
+}
+
+.product-text {
+    @apply mb-2 text-gray-600 text-sm;
+}
+
+.product-price {
+    @apply font-semibold text-xl mb-2 text-gray-600 flex-1;
+}
+
+.button {
+    @apply bg-amber-500 w-full px-2 py-2 text-white font-bold uppercase hover:bg-gray-600 rounded-md transition-colors duration-200;
+}
+
+.product-image {
+    @apply w-full h-[200px] mb-2;
+}
+
+.product-image img {
+    @apply h-full w-full object-cover;
+}
