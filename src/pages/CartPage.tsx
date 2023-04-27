@@ -1,12 +1,13 @@
-import Cart from "../components/Cart/Cart";
+import Cart from "../components/Cart/Cart"
+import OrderForm from "../components/OrderForm/OrderForm"
 
 const CartPage = () => {
   return (
-    <div>
-      <h1>Cart</h1>
+    <div className="cart-wrap">
       <Cart />
+      <OrderForm />
     </div>
-  );
-};
+  )
+}
 
-export default CartPage;
+export default CartPage

@@ -1,7 +1,28 @@
 .header {
-    @apply flex items-center justify-between px-24 py-3 shadow-sm;
+  @apply flex items-center justify-between px-9 py-3 shadow-sm relative;
 }
 
 .logo {
-    @apply w-12;
+  @apply w-20 flex items-center text-slate-400 font-bold hover:text-slate-400;
+}
+
+.cart-button {
+  @apply flex items-center bg-amber-500 hover:bg-slate-600 px-4 py-2 cursor-pointer rounded-md relative transition-colors duration-200;
+}
+
+.total {
+  @apply mr-2 text-white text-base font-semibold border-r border-opacity-70 border-amber-50 pr-2;
+}
+
+.cart-button span {
+  @apply absolute right-2 top-1 text-white text-xs font-light;
+}
+
+.header-nav {
+  @apply flex items-center;
+}
+
+.auth-link {
+  @apply mr-3;
+  
 }

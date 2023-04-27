@@ -1,0 +1,6 @@
+.auth {
+   @apply py-10;
+}
+.auth-form {
+   @apply w-full max-w-md mx-auto;
+}

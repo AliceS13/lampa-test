@@ -1,19 +1,9 @@
 .product-list {
-    @apply grid md:grid-cols-3 sm:grid-cols-2 px-10 gap-6 py-7 ;
+  @apply grid md:grid-cols-3 sm:grid-cols-2  gap-6 py-7 ;
 }
 
-.categories {
-    @apply flex flex-wrap gap-3 mt-10 px-10;
-}
 
-.category {
-    @apply border rounded-lg shadow-sm cursor-pointer whitespace-nowrap px-3 [&:not(:last-child)]:mr-3 hover:bg-amber-500 hover:text-white font-bold;
-}
-
-.category.checked {
-    @apply bg-amber-500 text-white;
-}
 
 .subtitle {
-    @apply w-full text-gray-500 font-bold text-lg;
+  @apply w-full text-gray-500 font-bold text-lg;
 }

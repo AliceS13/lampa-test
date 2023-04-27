@@ -1,0 +1,31 @@
+.cart {
+  @apply shadow-sm flex-1 border border-slate-50 p-4 rounded-md lg:mr-8;
+}
+
+.cart-wrap {
+  @apply flex py-9 px-10 lg:flex-row flex-col; 
+}
+.title {
+  @apply font-bold text-slate-600 text-2xl mb-4;
+
+}
+
+.cart-heading {
+  grid-template-columns: 50% 1fr 1fr 1fr;
+  @media (max-width: 1100px) {
+    grid-template-columns: 30% 1fr 1fr 1fr;
+  }
+  @apply grid mb-1 text-slate-500 text-sm font-bold;
+}
+
+.cart-total {
+  @apply bg-amber-500 rounded-md text-white font-bold text-xl mt-6 ;
+}
+
+.total-row {
+  @apply flex justify-between items-center text-lg py-1 px-5 [&:not(:last-child)]:border-b border-amber-50 border-opacity-40;
+}
+
+.cart-msg {
+  @apply text-slate-500 font-bold;
+}

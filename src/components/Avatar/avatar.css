@@ -1,0 +1,15 @@
+.avatar {
+  @apply w-10 h-10 rounded-full overflow-hidden mr-4 border shadow-sm cursor-pointer relative;
+}
+
+.avatar img {
+  @apply w-full h-full object-cover;
+}
+
+.auth-link:hover svg path {
+  @apply fill-amber-500;
+} 
+
+svg path {
+  @apply transition duration-200;
+}

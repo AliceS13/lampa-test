@@ -1,0 +1,20 @@
+.logout-menu {
+  @apply border absolute top-14 right-40 opacity-0 transition-opacity shadow-sm rounded-md p-2 bg-white;
+}
+
+.logout-menu.shown {
+  @apply opacity-100 visible;
+}
+
+.username {
+  @apply mb-2 text-sm text-slate-600 font-bold;
+}
+
+
+.logout-menu-link {
+  @apply flex items-center font-normal text-base text-slate-600 hover:text-amber-500 mb-5;
+}
+
+.logout-menu-link:hover svg path, .logout-menu-link:hover svg circle{
+  @apply stroke-amber-500;
+}

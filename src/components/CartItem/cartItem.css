@@ -1,0 +1,29 @@
+.cart-item {
+    grid-template-columns: 50% 1fr 1fr 1fr;
+
+    @media (max-width: 1100px) {
+      grid-template-columns: 30% 1fr 1fr 1fr;
+    }
+    @apply bg-slate-100 rounded-md [&:not(:last-child)]:mb-4 px-4 py-3 grid;
+}
+
+.counter {
+    @apply flex items-center;
+}
+
+.counter-number {
+    @apply mx-3 font-bold text-slate-700;
+}
+
+.cart-item-title {
+    @apply font-bold text-lg mr-5;
+}
+
+.cart-item-price, 
+.cart-item-total {
+    @apply text-lg font-semibold auto-cols-min text-slate-600 mr-5;
+}
+
+.button-count {
+    @apply text-xl focus:outline-amber-500;
+}
