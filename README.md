@@ -12,8 +12,8 @@ This is a Single Page Application built using React, TypeScript and Redux.
 3. Install the dependencies: npm install
 
 ## Usage
-Start the development server: npm run dev
-Open http://localhost:5173/ in your web browser to view the website.
+1. Start the development server: npm run dev
+2. Open http://localhost:5173/ in your web browser to view the website.
 
 ## Folder Structure
 1. public/: Contains the public assets such as the HTML file and the favicon.
