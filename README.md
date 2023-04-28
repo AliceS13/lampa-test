@@ -18,7 +18,7 @@ This is a Single Page Application built using React, TypeScript and Redux.
 ## Folder Structure
 1. public/: Contains the public assets such as the HTML file and the favicon.
 2. src/: The main source directory for the project.
-  - api/: Contains api methods
+  - api/: Contains dummyJsonSdk
   - assets/: The assets folder
   - components/: Contains the React components.
   - hooks/: Contains the hooks
