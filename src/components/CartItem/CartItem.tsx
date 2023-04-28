@@ -1,6 +1,6 @@
 import { useAppDispatch } from "../../hooks/redux"
 import { CartProduct } from "../../models/cart"
-import { addOrUpdateProduct } from "../../store/api/sessionSlice"
+import { addOrUpdateProduct } from "../../store/sessionSlice"
 import './cartItem.css'
 
 const CartItem = ({ product }: { product: CartProduct }) => {

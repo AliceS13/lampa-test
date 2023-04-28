@@ -2,7 +2,7 @@ import { useRef } from "react"
 import { Link } from "react-router-dom"
 import { useAppDispatch, useAppSelector } from "../../hooks/redux"
 import useOnClickOutside from "../../hooks/useOnClickOutside"
-import { logout } from "../../store/api/sessionSlice"
+import { logout } from "../../store/sessionSlice"
 import './logoutMenu.css'
 import { ReactComponent as CartIcon} from  '../../assets/shopping-cart.svg'
 

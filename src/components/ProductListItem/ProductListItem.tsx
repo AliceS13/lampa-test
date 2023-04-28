@@ -1,6 +1,6 @@
 import { useAppDispatch } from '../../hooks/redux'
 import { Product } from '../../models/product'
-import { addOrUpdateProduct } from '../../store/api/sessionSlice'
+import { addOrUpdateProduct } from '../../store/sessionSlice'
 import './productListItem.css'
 
 const ProductListItem = ({ product }: { product: Product }) => {

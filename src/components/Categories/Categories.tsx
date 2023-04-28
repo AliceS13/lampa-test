@@ -1,5 +1,5 @@
 import { useAppDispatch, useAppSelector } from '../../hooks/redux'
-import { setCategory } from '../../store/api/productsSlice'
+import { setCategory } from '../../store/productsSlice'
 import './categories.css'
 
 const Categories = () => {

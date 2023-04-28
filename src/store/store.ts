@@ -1,6 +1,6 @@
 import { combineReducers, configureStore, Middleware } from '@reduxjs/toolkit'
-import session from './api/sessionSlice'
-import products from './api/productsSlice'
+import session from './sessionSlice'
+import products from './productsSlice'
 
 const storeBasketInSessionStorage: Middleware = () => next => action => {
   if (action.type.includes('cart/') && action.meta.requestStatus === 'fulfilled') {

@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
-import { Cart, CartProduct } from '../../models/cart'
-import { UserResponse } from '../../models/response'
-import { dummyJsonSdk } from './dummyJsonSdk'
+import { Cart, CartProduct } from '../models/cart'
+import { UserResponse } from '../models/response'
+import { dummyJsonSdk } from '../api/dummyJsonSdk'
 
 type SessionSlice = {
   user?: UserResponse

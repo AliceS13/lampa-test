@@ -2,7 +2,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
 import { useAppDispatch } from '../../hooks/redux'
-import { loginUser } from '../../store/api/sessionSlice'
+import { loginUser } from '../../store/sessionSlice'
 import './auth.css'
 import * as z from 'zod'
 

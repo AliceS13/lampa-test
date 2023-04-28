@@ -1,5 +1,5 @@
-import { Cart, CartProduct } from "../../models/cart"
-import { ProductsResponse, UserResponse } from "../../models/response"
+import { Cart, CartProduct } from "../models/cart"
+import { ProductsResponse, UserResponse } from "../models/response"
 
 const API_HOST = 'https://dummyjson.com/'
 

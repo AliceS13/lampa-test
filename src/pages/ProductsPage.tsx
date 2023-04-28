@@ -2,7 +2,7 @@ import { useEffect } from "react"
 import Categories from "../components/Categories/Categories"
 import ProductList from "../components/ProductList/ProductList"
 import { useAppDispatch, useAppSelector } from "../hooks/redux"
-import { getCategories, loadProducts } from "../store/api/productsSlice"
+import { getCategories, loadProducts } from "../store/productsSlice"
 
 const ProductsPage = () => {
   const { selectedCategory } = useAppSelector((state) => state.products)

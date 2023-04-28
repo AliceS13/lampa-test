@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit"
-import { Product } from "../../models/product"
-import { dummyJsonSdk } from "./dummyJsonSdk"
+import { Product } from "../models/product"
+import { dummyJsonSdk } from "../api/dummyJsonSdk"
 
 type ProductsStateType = {
     products?: Product[],
